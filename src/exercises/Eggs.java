@@ -26,6 +26,7 @@ public class Eggs {
 		totalForDozenEggs = dozenEggs * amountForDozenEggs;
 		totalForSingleEgg = singleEgg * amountForSingleEgg;
 		totalCost = totalForDozenEggs + totalForSingleEgg;
+		
 		System.out.println("You ordered " + amountEntered + " eggs. That's " + amountForDozenEggs + " dozen at $3.25 per dozen and " 
 				+ amountForSingleEgg + " loose eggs for .45 cents" + " each for a total of $" + totalCost );
 
