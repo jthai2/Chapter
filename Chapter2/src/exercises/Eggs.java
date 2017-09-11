@@ -13,8 +13,8 @@ public class Eggs {
 		int amountEntered;
 		int dozenEgg = 12;
 		double totalCost;
-		double totalForSingleEgg = 6.50;
-		double totalForDozenEggs = 1.35;
+		double totalForSingleEgg;
+		double totalForDozenEggs;
 		
 		Scanner input = new Scanner(System.in);
 		
