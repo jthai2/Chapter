@@ -7,7 +7,7 @@ public class RandomGuessMatch {
 	
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Guess a number (from 1 to 5): ");
+		System.out.print("Guess a number between 1 and 5: ");
 		int guess = sc.nextInt();
 		
 		int random = 1 + (int)(Math.random() * 5);
