@@ -1,28 +1,21 @@
 package gameZone;
 
 import java.util.Scanner;
-
+ 
 public class RandomGuessMatch {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int difference;
-		int number;
-		int random;
+	
+		Scanner sc = new Scanner(System.in);
 		
-		Scanner input = new Scanner(System.in);
+		System.out.print("Guess a number (from 1 to 5): ");
+		int guess = sc.nextInt();
 		
-		random = 1 + (int)(Math.random() * 5);
+		int random = 1 + (int)(Math.random() * 5);
 		
-		System.out.println("Random number is " +1 + (int)(Math.random() * 5));
-		amountEntered = input.nextInt();
+		boolean isEqual = (random == guess);
 		
-		difference = random - number;
-		
-		System.out.println("Difference of random nuumber and your guessed number is" + difference + "Random number is " + random);
-		
-		
-		
-	}
-
-}
+		System.out.println();
+		System.out.println(isEqual + " - the number is " + random + ".");
+	} 
+	
+ }
